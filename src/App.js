@@ -48,6 +48,7 @@ function App() {
                 onClick={() => onEmojiClicked(item)}
                 key={item}
                 style={{ padding: "1rem" }}
+                className="flag"
               >
                 {item}
               </span>
