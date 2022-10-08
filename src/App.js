@@ -4,10 +4,16 @@ import "./App.css";
 function App() {
   const [emoji, setEmoji] = useState("");
   const emojiDirectory = {
+    "🇮🇳": "Indian Flag",
     "🏁": "Racing Flag",
     "🏴‍☠️": "Pirate Flag",
     "🏳️‍🌈": " Rainbow Flag",
     "🚩": "Triangular Flag",
+    "⛳️": "golf Flag",
+    "🏳️": "White Flag",
+    "🏴": "Black Flag",
+    "🎌": "Winning Flag",
+    "🇦🇨": "Ascension Island",
   };
   function onInputChange(event) {
     var userInput = event.target.value;
